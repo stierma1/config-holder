@@ -1,0 +1,22 @@
+{
+  "name": "config-holder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stierma1/config-holder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stierma1/config-holder/issues"
+  },
+  "homepage": "https://github.com/stierma1/config-holder#readme",
+  "dependencies": {
+    "value-holder": "^1.0.0"
+  }
+}

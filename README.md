@@ -11,7 +11,7 @@ Exports ConfigHolder class
 ```
 var ConfigHolder = require("config-holder");
 
-async (function(){
+(async function(){
   var  myConfig = {
     "hello": "world"
   }
@@ -22,7 +22,7 @@ async (function(){
 
   var [status, val] = await helloVal.getValue();
   console.log(val) //should write "world" to the console
-  
+
   //Lets change the config
   await config.changeValue({"hello": "universe"});
 
